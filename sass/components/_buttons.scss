@@ -1,0 +1,16 @@
+.modal-button,
+.modal-button-footer {
+    border-style: none;
+    width: 200px;
+    padding: 10px 0px;
+    background-color: $skyblue-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: $white-color;
+}
+
+.modal-button-footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

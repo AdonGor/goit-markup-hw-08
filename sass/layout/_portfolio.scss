@@ -1,0 +1,113 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.filter {
+  margin-bottom: 46px;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-list-item {
+  margin-bottom: 15px;
+}
+
+.filter-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filter-list-button {
+  border-style: none;
+  padding: 0px 22px;
+  height: 38px;
+  background-color: $whitegrey-background-color;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $skyblue-color;
+    color: $white-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.main-portfolio {
+  // text-align: center;
+  background-color: $white-color;
+  padding: 93px 15px;
+}
+
+.main-list-portfolio {
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-item {
+  background: $white-color;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  // margin-right: 30px;
+  margin-bottom: 30px;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+// .list-item:nth-child(3n) {
+//   margin-right: 0;
+// }
+
+// .main-list-item {
+//   padding-left: 24px;
+// }
+
+.main-list-header {
+  margin-left: 24px;
+  margin-bottom: 5px;
+}
+
+.main-list-description {
+  margin-left: 24px;  
+  margin-bottom: 20px;
+}
+
+.item-img {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image-hover-effect {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-item:hover .image-hover-effect {
+  transform: translateY(-100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-list-hover {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0px 24px;
+  width: 346px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}

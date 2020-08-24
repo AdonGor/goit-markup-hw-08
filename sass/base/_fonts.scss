@@ -1,0 +1,192 @@
+// Тут указаны исходные стили шрифтов -ховер и фокус- эффекты остались в основных стилях секций
+.navigation-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.address-header {
+  font-style: normal;  
+}
+
+.logo-header {
+  font-family: $Raleway-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+.word-blue {
+  color: $skyblue-color;
+}
+.word-black {
+  color: $black;
+}
+
+.main-header {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 42px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white-color;
+}
+
+.modal-button,
+.modal-button-footer {
+  text-align: center;
+  font-family: $Roboto-font;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $white-color;
+}
+
+.modal-text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.form-label,
+.form-label-textarea {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: $grey-color;
+}
+
+.features-list-headers,
+.work-description,
+.join-in,
+.subscribe {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.features-description,
+.footer-mail,
+.footer-tel,
+.footer-map {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $grey-color;
+}
+
+.check_box_text {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+}
+
+.chapter {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: $black;
+}
+
+.work-description {
+  text-align: center;
+}
+
+.work-description,
+.join-in,
+.subscribe {
+  color: $white-color;
+}
+
+.name,
+.occupation-description {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: $black;
+}
+
+.occupation-description {
+  color: $grey-color;
+  font-weight: normal;
+}
+
+.logo-footer {
+  font-family: $Raleway-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.word-white {
+  color: $white-color;
+}
+
+.address-footer {
+  font-style: normal;
+}
+
+.footer-map {
+  color: $white-color;
+}
+
+.text_email_footer {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+//  Portfolio
+
+.filter-list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: $black;
+}
+
+.main-list-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: $black;
+}
+
+.main-list-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: $grey-color;
+}
+
+.main-list-hover {
+  font-family: $Roboto-font;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: $white-color;
+}
+

@@ -1,0 +1,132 @@
+
+.footer {
+  padding: 60px 0px;
+  text-align: center;
+  background-color: $footer-bacground;
+}
+
+// .footer-section {
+//   display: flex;
+//   align-items: baseline;
+//   justify-content: center;
+// }
+
+// .footer-adress-container {
+//   margin-right: 69px;
+// }
+
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.address-footer {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.footer-map,
+.footer-mail {
+  display: block;
+  margin-bottom: 9px;
+}
+
+// .join-in-container {
+//   margin-right: 94px;
+// }
+
+.join-in {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: $white-color;
+  &:hover,
+  &:focus {
+    background-color: $skyblue-color;
+    color: $white-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-svg-icon {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-svg {
+  margin-left: 10px;
+}
+
+.subscribe {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#form-footer {
+  display: block;
+}
+
+.footer-label {
+  position: relative;
+}
+
+.inputtext {
+  position: relative;
+  width: 100%;
+  height: 49.3px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  color: $white-color;
+  background-color: $footer-bacground;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.text_email_footer {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  background-color: $footer-bacground;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text_email_footer:focus:required {
+  color: $white-color;
+  font-size: 10px;
+}
+
+.footer-label:focus-within > .text_email_footer {
+  color: $white-color;
+}
+
+.footer-label:focus-within > .text_email_footer {
+  transform: translateY(-30px);
+  color: $white-color;
+  font-size: 10px;
+}
+
+.inputtext:not(:placeholder-shown) + .text_email_footer {
+  transform: translateY(-30px);
+  color: $white-color;
+  font-size: 10px;
+}
