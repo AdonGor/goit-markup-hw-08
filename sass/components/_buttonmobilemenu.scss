@@ -1,0 +1,68 @@
+// Sasha
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 7px 0px 0px;
+    background-color: #fff;
+    border: none;
+    @media screen and (min-width: 768px){
+    display: none;
+    }
+}
+
+.menu-button:focus {
+    outline: none;
+}
+
+.menu-button .icon-cross {
+    display: none;
+}
+
+.menu-button.is-open .icon-cross {
+    display: block;
+}
+
+.menu-button .icon-menu {
+    display: block;
+}
+
+.menu-button.is-open .icon-menu {
+    display: none;
+}
+
+.menu-container {
+    // height: 400px;
+    background-color: rgb(176, 203, 253);
+    padding: 28px;
+    text-align: center;
+
+    &.is-open {
+        display: block;
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.navigation,
+.contacts {
+    height: 58px;
+    width: 140px;
+}
+
+.navigation {
+    outline: 1px solid rgb(78, 190, 111);
+}
+
+.contacts {
+    outline: 1px solid rgb(211, 132, 221);
+}
+

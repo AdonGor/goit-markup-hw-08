@@ -1,16 +1,16 @@
 .header {
   padding: 16px 0px;
 }
-
-.logo-header {
-  // margin-right: 85px;
-  padding: 16px 0px;
-}
-
-// .navigation-address {
-//   display: flex;
-//   align-items: center;
+ 
+// .logo-header {
+//   margin-right: 85px;
 // }
+
+.navigation-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 // .nav-menu {
 //   display: flex;
