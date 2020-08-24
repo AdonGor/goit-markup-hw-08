@@ -72,15 +72,15 @@
 .form-label {
   position: absolute;
   top: 50%;
-  left: 55px;
+  left: 45px;
   transform: translateY(-50%);
   transition: transform 250ms linear;
 }
 
 .form-input {
-  width: 288px;
+  width: 268px;
   margin: 0;
-  padding: 11px 40px;
+  padding: 11px 50px;
   background: $white-color;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -89,7 +89,7 @@
 .svg-icon-form {
   position: absolute;
   top: 30%;
-  left: 30px;
+  left: 15px;
   transition: translateY(-50%);
   display: inline-block;
   width: 18px;
@@ -103,7 +103,7 @@
 
 .form-input-textarea:not(:placeholder-shown) + .form-label-textarea {
   transform: translateY(-40px) translateX(-40px);
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 .form-input:not(:placeholder-shown) + .form-label {
@@ -129,7 +129,7 @@
 .form-label-textarea {
   position: absolute;
   top: 20px;
-  left: 32px;
+  left: 28px;
   transform: translateY(-50%);
   transition: 250ms linear;
 }
