@@ -23,6 +23,22 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .section,
+  .main-portfolio,
+  .footer-section {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section,
+  .main-portfolio,
+  .footer-section {
+    width: 1200px;
+  }
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -40,6 +56,15 @@ img {
 .header {
   position: relative;
   padding: 16px 0px;
+}
+
+.logo-header {
+  display: flex;
+  margin-right: 81px;
+}
+
+.word-blue {
+  margin-right: 5px;
 }
 
 .navigation-address {
@@ -96,6 +121,7 @@ img {
   left: 0;
   width: 100%;
   padding: 60px 0px;
+  z-index: 3;
 }
 
 .menu-container.is-open {
@@ -115,6 +141,9 @@ img {
 @media screen and (min-width: 768px) {
   .menu-container {
     display: flex;
+    position: relative;
+    padding: 0;
+    border: none;
   }
 }
 
@@ -125,7 +154,7 @@ img {
 
 .nav-menu-item {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 41px;
 }
 
 .nav-menu-item:last-child {
@@ -137,6 +166,7 @@ img {
 }
 
 .nav-menu-link {
+  position: relative;
   padding: 10px 0px;
   line-height: 21px;
   color: #212121;
@@ -150,6 +180,7 @@ img {
 .nav-menu-link::after {
   position: absolute;
   display: block;
+  left: 0;
   width: 100%;
   height: 4px;
   margin-top: 8px;
@@ -958,5 +989,53 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-header {
+    margin-right: 81px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-item {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+  .nav-menu-item:last-child {
+    margin-bottom: 0;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-mail,
+  .header-tel {
+    padding: 5px 0px;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

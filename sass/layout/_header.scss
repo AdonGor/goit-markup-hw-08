@@ -3,9 +3,14 @@
   padding: 16px 0px;
 }
  
-// .logo-header {
-//   margin-right: 85px;
-// }
+.logo-header {
+  display: flex;
+  margin-right: 81px;
+}
+
+.word-blue {
+  margin-right: 5px;
+}
 
 .navigation-address {
   display: flex;
