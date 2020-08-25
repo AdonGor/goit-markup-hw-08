@@ -11,6 +11,10 @@
     }
     &:focus {
         outline: none;
+        fill: $skyblue-color;
+    }
+    &:hover {
+        fill: $skyblue-color;
     }
 }
 
@@ -60,9 +64,9 @@ text-align: center;
 
 .nav-menu-item {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   &:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
 

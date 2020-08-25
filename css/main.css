@@ -65,6 +65,11 @@ img {
 
 .menu-button:focus {
   outline: none;
+  fill: #2196f3;
+}
+
+.menu-button:hover {
+  fill: #2196f3;
 }
 
 .menu-button .icon-cross {
@@ -120,11 +125,11 @@ img {
 
 .nav-menu-item {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .nav-menu-item:last-child {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .nav-menu-item {
