@@ -1,9 +1,3 @@
-
-// .menu-container {
-//     @media screen and (min-width: 768px) {
-//         display: flex;
-//     }
-// }
 .header {
     @media screen and (min-width: 768px) {
         padding: 0;
@@ -13,6 +7,7 @@
 .logo-header {
     @media screen and (min-width: 768px) {
         margin-right: 81px;
+        padding: 26px 0px;
     }
 }
 
@@ -42,18 +37,23 @@
         }
     }
 }
-// .navigation {
-//     @media screen and (min-width: 768px) {
-//     font-size: 14px;
-//     line-height: 16px;
-//     margin-bottom: 0;
-//     }
-// }
+
+.nav-menu-link::after {
+    @media screen and (min-width: 768px) {
+        margin-top: 26px;
+        }
+}
+
+.contacts {
+    @media screen and (min-width: 768px) {
+            text-align: justify;
+        }
+}
 
 .header-mail,
 .header-tel {
     @media screen and (min-width: 768px) {
-    padding: 5px 0px;
+    padding: 3px 0px;
     font-size: 12px;
     line-height: 14px;
     }
