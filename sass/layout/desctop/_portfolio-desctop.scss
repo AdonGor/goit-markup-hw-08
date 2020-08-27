@@ -1,0 +1,13 @@
+.filter-list {
+    @media screen and (min-width: 1170px) {
+        margin-bottom: 35px;
+    }
+}
+
+.list-item {
+    @media screen and (min-width: 1170px) {
+        width: calc(
+        (100% - 3 * 30px)/3
+        );
+    }
+}

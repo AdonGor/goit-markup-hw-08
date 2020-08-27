@@ -11,16 +11,8 @@
        width: calc(
            (100% - 2 * 30px)/2
        );
-       margin: 15px;
+       margin: 15px; 
     }
-    // @media screen and (max-width: 737px) {
-    //     &:not(:last-child) {
-    //         margin-bottom: 20px;
-    //     }    
-    // }
-    @media screen and (min-width: 1170px) {
-        flex-basis: 25%;
-    }    
 }
 
 .features-list-headers {
@@ -38,9 +30,6 @@
         flex-wrap: wrap;
         margin: -15px;
     }
-    @media screen and (min-width: 1170px) {
-
-    }    
 }
 
 .items-our {
@@ -50,9 +39,6 @@
         );
         margin: 15px;
     }
-    @media screen and (min-width: 1170px) {
-        flex-basis: 25%;
-    }    
 }
 
 .team-member {
@@ -77,9 +63,6 @@
         margin: 15px;
         padding: 0;
      }
-     @media screen and (min-width: 1170px) {
-         flex-basis: 25%;
-     }    
 }
 
 .items-customer-logo {

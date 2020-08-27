@@ -22,19 +22,9 @@
 
 .list-item {
     @media screen and (min-width: 738px) {
-        @media screen and (min-width: 738px) {
-            width: calc(
-                (100% - 2 * 30px)/2
-            );
-            margin: 15px;
-         }
-         // @media screen and (max-width: 737px) {
-         //     &:not(:last-child) {
-         //         margin-bottom: 20px;
-         //     }    
-         // }
-         @media screen and (min-width: 1170px) {
-             flex-basis: 25%;
-         }    
+        width: calc(
+        (100% - 2 * 30px)/2
+        );
+        margin: 15px;
     }
 }

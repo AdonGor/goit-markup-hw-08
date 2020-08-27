@@ -1,0 +1,51 @@
+// Герой
+.hero-section {
+    @media screen and (min-width: 1170px) {
+        padding: 200px 0px;
+    } 
+}
+// Особенности
+.section-features {
+        @media screen and (min-width: 1170px) {
+            padding: 94px 0px;
+    }
+}
+
+.items-features {
+    @media screen and (min-width: 1170px) {
+       width: calc(
+           (100% - 4 * 30px)/4
+       );
+       margin: 15px; 
+    }
+}
+// Наша команда
+.section-our-team {
+    @media screen and (min-width: 1170px) {
+        padding: 94px 0px;
+    }
+}
+
+.items-our {
+    @media screen and (min-width: 1170px) {
+        width: calc(
+            (100% - 4 * 30px)/4
+        );
+    }
+}
+
+// Клиенты
+.sections-customers {
+    @media screen and (min-width: 1170px) {
+        padding: 94px 0px;
+    }
+}
+
+.items-customer {
+    @media screen and (min-width: 1170px) {
+        width: calc(
+            (100% - 6 * 30px)/6
+        );
+    }
+}
+
