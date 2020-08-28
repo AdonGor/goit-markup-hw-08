@@ -528,6 +528,24 @@ textarea {
   margin-bottom: 10px;
 }
 
+.section-work {
+  background-color: #FFFFFF;
+  padding: 47px 0px 94px 0px;
+}
+
+.items-work {
+  position: relative;
+}
+
+.work-description {
+  position: absolute;
+  margin: 0;
+  bottom: 0px;
+  width: 100%;
+  padding: 27px 0px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 .section-our-team {
   padding: 60px 0px;
   background-color: #f5f4fa;
@@ -1302,6 +1320,26 @@ textarea {
 @media screen and (min-width: 1170px) {
   .items-features {
     width: calc( (100% - 4 * 30px)/4);
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .section-work {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .items-work {
+    width: calc( (100% - 3 * 30px)/3);
     margin: 15px;
   }
 }

@@ -1,3 +1,4 @@
+// Особенности
 .features-list {
     @media screen and (min-width: 738px) {
         display: flex;
@@ -23,7 +24,7 @@
         text-align: unset;
     }    
 }
-
+// Наша команда
 .our-team-list {
     @media screen and (min-width: 738px) {
         display: flex;
@@ -46,7 +47,7 @@
         margin-bottom: 0;
     }
 }
-
+// Клиенты
 .customer-list {
     @media screen and (min-width: 738px) {
         display: flex;

@@ -16,7 +16,29 @@
        width: calc(
            (100% - 4 * 30px)/4
        );
-       margin: 15px; 
+    }
+}
+// Чем занимаемся
+.section-work {
+    @media screen and (max-width: 1170px) {
+        display: none;
+    }
+}
+
+.work-list {
+    @media screen and (min-width: 1170px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+}
+
+.items-work{
+    @media screen and (min-width: 1170px) {
+        width: calc(
+            (100% - 3 * 30px)/3
+        );
+        margin: 15px;
     }
 }
 // Наша команда
@@ -33,7 +55,6 @@
         );
     }
 }
-
 // Клиенты
 .sections-customers {
     @media screen and (min-width: 1170px) {
@@ -48,4 +69,3 @@
         );
     }
 }
-
