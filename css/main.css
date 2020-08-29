@@ -357,6 +357,12 @@ img {
   margin-bottom: 28px;
 }
 
+@media screen and (min-width: 280px) {
+  .form-field {
+    max-width: 100%;
+  }
+}
+
 .form-label {
   position: absolute;
   top: 50%;
@@ -366,30 +372,13 @@ img {
 }
 
 .form-input {
-  width: 268px;
+  box-sizing: border-box;
+  width: 100%;
   margin: 0;
   padding: 11px 50px;
   background: #FFFFFF;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
-@media screen and (min-width: 280px) {
-  .form-input {
-    width: 166px;
-  }
-}
-
-@media screen and (min-width: 450px) {
-  .form-input {
-    width: 260px;
-  }
-}
-
-@media screen and (min-width: 1170px) {
-  .form-input {
-    width: 366px;
-  }
 }
 
 .svg-icon-form {
@@ -447,9 +436,10 @@ img {
 }
 
 textarea {
+  box-sizing: border-box;
   padding: 10px;
   resize: none;
-  width: 348px;
+  max-width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -457,19 +447,7 @@ textarea {
 
 @media screen and (min-width: 280px) {
   textarea {
-    width: 246px;
-  }
-}
-
-@media screen and (min-width: 450px) {
-  textarea {
-    width: 340px;
-  }
-}
-
-@media screen and (min-width: 1170px) {
-  textarea {
-    width: 448px;
+    width: 100%;
   }
 }
 
