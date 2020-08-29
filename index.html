@@ -170,6 +170,7 @@
         <ul class="work-list list">
           <li class="items-work">
             <img
+              srcset="./img/3What_are_we_doing/1.jpg 1x, ./img/3What_are_we_doing/1-2x.jpg 2x"
               src="./img/3What_are_we_doing/1.jpg"
               alt="Десктоп"
               width="370"
@@ -179,6 +180,7 @@
           </li>
           <li class="items-work">
             <img
+              srcset="./img/3What_are_we_doing/2.jpg 1x, ./img/3What_are_we_doing/2-2x.jpg 2x"            
               src="./img/3What_are_we_doing/2.jpg"
               alt="Мобильный"
               width="370"
@@ -188,6 +190,7 @@
           </li>
           <li class="items-work">
             <img
+              srcset="./img/3What_are_we_doing/3.jpg 1x, ./img/3What_are_we_doing/3-2x.jpg 2x"
               src="./img/3What_are_we_doing/3.jpg"
               alt="Дизайн"
               width="370"
@@ -204,12 +207,12 @@
         <h2 class="chapter">Наша команда</h2>
         <ul class="our-team-list list">
           <li class="items-our">
-            <img class="img-team-member"
-              src="./img/4Our_team/Nikolaj.jpg"
-              alt="Николай"
-              width="450"
-              height="320"
-            />
+            <picture>
+              <source srcset="./img/4Our_team/Nikolaj-mobile.jpg 1x, ./img/4Our_team/Nikolaj2x-mobile.jpg 2x" type="image/jpg" media="(max-width: 737px)">
+              <source srcset="./img/4Our_team/Nikolaj-tablet.jpg 1x, ./img/4Our_team/Nikolaj2x-tablet.jpg 2x" media="(min-width: 738px)" type="image/jpg">
+              <source srcset="./img/4Our_team/Nikolaj-desctop.jpg 1x, ./img/4Our_team/Nikolaj2x-desctop.jpg 2x" media="(min-width: 1170px)" type="image/jpg">                
+              <img class="img-team-member" src="./img/4Our_team/Nikolaj-mobile.jpg" alt="Николай"/>
+            </picture>
             <h3 class="name">Николай Кучеренко</h3>
             <p class="occupation-description" lang="en">Product Designer</p>
             <ul class="team-member">
@@ -236,12 +239,15 @@
             </ul>
           </li>
           <li class="items-our">
-            <img class="img-team-member"
-              src="./img/4Our_team/Olga.jpg"
+            <picture>
+              <source srcset="./img/4Our_team/Olga-mobile.jpg 1x, ./img/4Our_team/Olga2x-mobile.jpg 2x" type="image/jpg" media="(max-width: 737px)">
+              <source srcset="./img/4Our_team/Olga-tablet.jpg 1x, ./img/4Our_team/Olga2x-tablet.jpg 2x" media="(min-width: 738px)" type="image/jpg">
+              <source srcset="./img/4Our_team/Olga-desctop.jpg 1x, ./img/4Our_team/Olga2x-desctop.jpg 2x" media="(min-width: 1170px)" type="image/jpg">                
+              <img class="img-team-member"
+              src="./img/4Our_team/Olga-mobile.jpg"
               alt="Ольга"
-              width="450"
-              height="320"
             />
+            </picture>
             <h3 class="name">Ольга Иванова</h3>
             <p class="occupation-description" lang="en">Frontend Developer</p>
             <ul class="team-member">
@@ -266,12 +272,15 @@
             </ul>
           </li>
           <li class="items-our">
-            <img class="img-team-member"
-              src="./img/4Our_team/Andrew.jpg"
+            <picture>
+              <source srcset="./img/4Our_team/Andrew-mobile.jpg 1x, ./img/4Our_team/Andrew2x-mobile.jpg 2x" type="image/jpg" media="(max-width: 737px)">
+              <source srcset="./img/4Our_team/Andrew-tablet.jpg 1x, ./img/4Our_team/Andrew2x-tablet.jpg 2x" media="(min-width: 738px)" type="image/jpg">
+              <source srcset="./img/4Our_team/Andrew-desctop.jpg 1x, ./img/4Our_team/Andrew2x-desctop.jpg 2x" media="(min-width: 1170px)" type="image/jpg">                
+              <img class="img-team-member"
+              src="./img/4Our_team/Andrew-mobile.jpg"
               alt="Андрей"
-              width="450"
-              height="320"
             />
+            </picture>
             <h3 class="name">Андрей Шевченко</h3>
             <p class="occupation-description" lang="en">Marketing</p>
             <ul class="team-member">
@@ -296,12 +305,15 @@
             </ul>
           </li>
           <li class="items-our">
-            <img class="img-team-member"
-              src="./img/4Our_team/Ivan.jpg"
+            <picture>
+              <source srcset="./img/4Our_team/Ivan-mobile.jpg 1x, ./img/4Our_team/Ivan2x-mobile.jpg 2x" type="image/jpg" media="(max-width: 737px)">
+              <source srcset="./img/4Our_team/Ivan-tablet.jpg 1x, ./img/4Our_team/Ivan2x-tablet.jpg 2x" media="(min-width: 738px)" type="image/jpg">
+              <source srcset="./img/4Our_team/Ivan-desctop.jpg 1x, ./img/4Our_team/Ivan2x-desctop.jpg 2x" media="(min-width: 1170px)" type="image/jpg">                
+              <img class="img-team-member"
+              src="./img/4Our_team/Ivan-mobile.jpg"
               alt="Иван"
-              width="450"
-              height="320"
             />
+            </picture>
             <h3 class="name">Иван Николаев</h3>
             <p class="occupation-description" lang="en">UI Designer</p>
             <ul class="team-member">
