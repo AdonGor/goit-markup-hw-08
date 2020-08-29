@@ -93,11 +93,11 @@
 }
 
 .main-list-hover {
+  width: 100%;
   position: absolute;
   box-sizing: border-box;
   padding: 0px 24px;
-  width: 100%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
