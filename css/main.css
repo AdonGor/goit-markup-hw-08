@@ -966,9 +966,14 @@ textarea {
 }
 
 .footer {
-  padding: 60px 0px 0px 0px;
   text-align: center;
   background-color: #2f303a;
+}
+
+@media screen and (max-width: 1169px) {
+  .footer {
+    padding: 60px 0px;
+  }
 }
 
 .logo-footer {

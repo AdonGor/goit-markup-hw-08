@@ -1,8 +1,10 @@
 
 .footer {
-  padding: 60px 0px 0px 0px;
   text-align: center;
   background-color: $footer-bacground;
+    @media screen and (max-width: 1169px) {
+      padding: 60px 0px;
+  } 
 }
 
 .logo-footer {
